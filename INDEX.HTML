@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <title>KOMANDRA | Taste The Experience</title>
+  <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#">KOMANDRA<span>.</span></a>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#menu">المنيو</a>
+      <a href="#about">عن KOMANDRA</a>
+    </nav>
+    <button class="cart" id="cartButton">
+      السلة <span id="cartCount">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">A NEW TASTE EXPERIENCE</span>
+        <h1>مش مجرد أكلة.<br><span>دي تجربة.</span></h1>
+        <p>اكتشف طعمك المفضل بطريقة مختلفة.</p>
+        <a href="#menu" class="primary-button">اكتشف المنيو ↙</a>
+        <div class="hero-note">FRESH · BOLD · DIFFERENT</div>
+      </div>
+
+<div class="hero-visual">
+  <div class="glow"></div>
+
+  <img
+    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=85"
+    alt="KOMANDRA signature burger"
+    loading="eager"
+    fetchpriority="high"
+  >
+
+  <div class="floating-label">
+    THE SIGNATURE<br>
+    BURGER
+  </div>
+</div>
+     
+    </section>
+
+<section class="menu-section" id="menu">
+  <span class="eyebrow">MADE FOR YOUR CRAVINGS</span>
+  <h2>اختار مزاجك.</h2>
+  <p>اختار وجبتك المفضلة، وظبّط طلبك على مزاجك.</p>
+
+  <div class="menu-filters" id="menuFilters">
+    <button class="menu-filter active" data-category="all">الكل</button>
+    <button class="menu-filter" data-category="burgers">برجر</button>
+    <button class="menu-filter" data-category="chicken">فراخ</button>
+    <button class="menu-filter" data-category="sides">إضافات</button>
+    <button class="menu-filter" data-category="drinks">مشروبات</button>
+  </div>
+
+  <div class="menu-grid" id="menuGrid">
+    <p>جاري تجهيز المنيو...</p>
+  </div>
+</section>
+
+    
+    <section class="about" id="about">
+      <h2>KOMANDRA<span>.</span></h2>
+      <p>أكلك المفضل... بطريقة مختلفة.</p>
+      <small>Taste The Komandra Experience.</small>
+    </section>
+  </main>
+  <footer>© KOMANDRA — Taste The Experience</footer>
+  <script src="APP.JS"></script>
+</body>
+</html>
