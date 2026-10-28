@@ -1,4 +1,4 @@
-
+  
 const products = [
   {
     id: 1,
@@ -157,6 +157,3 @@ renderCartCount();
 console.log("Products:", products);
 console.log("Menu grid:", document.getElementById("menuGrid"));
 console.log("Menu filters:", document.getElementById("menuFilters"));
-renderProducts();
-document.getElementById("menuGrid").innerHTML =
-  "<h2 style='color:#ffc04b'>المنيو شغالة!</h2>";
